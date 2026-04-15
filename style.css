@@ -264,6 +264,31 @@ p {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
+.evidence-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.evidence-card {
+  padding: 0.8rem;
+  margin: 0;
+}
+
+.evidence-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 0.8rem;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+}
+
+.evidence-card figcaption {
+  margin-top: 0.7rem;
+  color: #d6e5ff;
+  font-size: 0.95rem;
+}
+
 .project-card span {
   color: #c2d7ff;
   font-size: 0.9rem;
@@ -395,6 +420,7 @@ p {
   .cards-2,
   .grid-vision,
   .projects-grid,
+  .evidence-grid,
   .gallery,
   .metrics-grid {
     grid-template-columns: 1fr 1fr;
@@ -446,6 +472,7 @@ p {
   .cards-2,
   .grid-vision,
   .projects-grid,
+  .evidence-grid,
   .gallery,
   .metrics-grid,
   .card-grid {
